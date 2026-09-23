@@ -1,0 +1,122 @@
+---
+title: "Hospital Management and Patient Data Analysis using R"
+author: "Krishna Chaudhari"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+## 1. Introduction
+
+This project demonstrates hospital management and patient data analysis using R. It covers data importing, cleaning, descriptive statistics, visual analysis, and linear correlation modeling. The dataset is synthetic and designed for academic demonstration.
+
+## 2. Objectives
+
+* Import and inspect the hospital dataset.
+* Verify missing values and remove potential duplicates.
+* Analyze demographic, departmental, and medical status variables.
+* Examine financial metrics including treatment cost, room charges, and total bill.
+* Evaluate relationships via scatter plots and Pearson correlation coefficients.
+
+## 3. Dataset Description
+
+The dataset consists of 100 patient records with 18 distinct attributes:
+
+| Variable | Description |
+| :--- | :--- |
+| `Patient ID` | Unique patient identifier |
+| `Patient Name` | Sample patient name |
+| `Age` | Patient age in years |
+| `Gender` | Gender category |
+| `Blood_Group` | Blood group classification |
+| `Department` | Assigned hospital department |
+| `Doctor Name` | Attending physician |
+| `Admission Date` | Hospital admission date |
+| `Discharge_Date` | Hospital discharge date |
+| `Disease` | Diagnosed condition |
+| `Treatment_Cost` | Primary treatment cost |
+| `Stay_Days` | Total days spent in hospital |
+| `Doctor Fee` | Consulting physician fee |
+| `Room_Charge` | Accommodation charge |
+| `Medicine Cost` | Medication expense |
+| `Total Bill` | Overall hospital bill |
+| `Patient_Rating` | Patient satisfaction score |
+| `Patient Status` | Current status (Recovered, Discharged, Admitted) |
+
+## 4. Data Import & Inspection
+
+```{r import-data}
+hospital_data <- read.csv("hospital_data.csv")
+head(hospital_data)
+str(hospital_data)
+summary(hospital_data)
+dim(hospital_data)
+```
+
+## 5. Data Cleaning
+
+```{r data-cleaning}
+colSums(is.na(hospital_data))
+sum(duplicated(hospital_data))
+hospital_clean <- hospital_data[!duplicated(hospital_data), ]
+```
+
+## 6. Descriptive Statistics
+
+```{r descriptive-stats}
+vars <- c("Age", "Treatment_Cost", "Stay_Days", "Doctor_Fee", "Room_Charge", "Medicine_Cost", "Total_Bill", "Patient_Rating")
+
+sapply(hospital_clean[vars], function(x) c(
+  Mean = mean(x, na.rm = TRUE),
+  Median = median(x, na.rm = TRUE),
+  Min = min(x, na.rm = TRUE),
+  Max = max(x, na.rm = TRUE),
+  SD = sd(x, na.rm = TRUE)
+))
+```
+
+## 7. Patient Gender Analysis
+
+```{r gender-analysis}
+gender_count <- table(hospital_clean$Gender)
+pie(gender_count, main = "Patient Gender Distribution", col = c("#1f77b4", "#ff7f0e"))
+```
+
+## 8. Patient Status Analysis
+
+```{r status-analysis}
+status_count <- table(hospital_clean$Patient_Status)
+barplot(status_count, main = "Patient Status Distribution", col = "#1f77b4", ylab = "Number of Patients")
+```
+
+## 9. Department Analysis
+
+```{r department-analysis}
+dept_count <- sort(table(hospital_clean$Department), decreasing = TRUE)
+barplot(dept_count, main = "Patients by Department", col = "#008080", las = 2, ylab = "Number of Patients")
+```
+
+## 10. Disease Frequency Analysis
+
+```{r disease-analysis}
+disease_count <- sort(table(hospital_clean$Disease), decreasing = TRUE)
+barplot(disease_count, main = "Disease Distribution", col = "#4682b4", las = 2, ylab = "Number of Patients")
+```
+
+## 11. Patient Age Distribution
+
+```{r age-analysis}
+hist(hospital_clean$Age, main = "Distribution of Patient Age", xlab = "Age", col = "#5f9ea0", border = "white")
+```
+
+## 12. Treatment Cost Analysis
+
+```{r treatment-cost}
+hist(hospital_clean$Treatment_Cost, main = "Distribution of Treatment Cost", xlab = "Treatment Cost", col = "#2b5c8f", border = "white")
