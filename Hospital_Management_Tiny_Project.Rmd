@@ -120,3 +120,43 @@ hist(hospital_clean$Age, main = "Distribution of Patient Age", xlab = "Age", col
 
 ```{r treatment-cost}
 hist(hospital_clean$Treatment_Cost, main = "Distribution of Treatment Cost", xlab = "Treatment Cost", col = "#2b5c8f", border = "white")
+```
+
+## 13. Total Hospital Bill Analysis
+
+```{r total-bill}
+hist(hospital_clean$Total_Bill, main = "Distribution of Total Hospital Bill", xlab = "Total Bill", col = "#1e4d2b", border = "white")
+```
+
+## 14. Hospital Stay vs. Total Bill
+
+```{r stay-vs-bill}
+plot(hospital_clean$Stay_Days, hospital_clean$Total_Bill,
+     main = "Hospital Stay vs Total Bill",
+     xlab = "Stay Days", ylab = "Total Bill",
+     pch = 19, col = "#3182bd")
+abline(lm(Total_Bill ~ Stay_Days, data = hospital_clean), col = "red", lwd = 2)
+cor(hospital_clean$Stay_Days, hospital_clean$Total_Bill)
+```
+
+## 15. Average Bill by Department
+
+```{r dept-bill}
+aggregate(Total_Bill ~ Department, data = hospital_clean, FUN = mean)
+```
+
+## 16. Correlation Matrix
+
+```{r correlation}
+num_cols <- hospital_clean[, c("Age", "Treatment_Cost", "Stay_Days", "Total_Bill", "Patient_Rating")]
+cor_matrix <- cor(num_cols)
+round(cor_matrix, 2)
+```
+
+## 17. Summary of Findings
+
+* Synthetic cohort contains 100 records across 6 medical departments[span_39](start_span)[span_39](end_span).
+* Average patient age is 47.88 years with a mean stay of 5.70 days[span_40](start_span)[span_40](end_span).
+* Mean total bill is 30,825.21 compared to an average treatment cost of 16,288.55[span_41](start_span)[span_41](end_span).
+* General Medicine represents the largest share of patients (27)[span_42](start_span)[span_42](end_span).
+* Strong positive linear correlation exists between Treatment Cost and Total Bill (0.91)[span_43](start_span)[span_43](end_span).
