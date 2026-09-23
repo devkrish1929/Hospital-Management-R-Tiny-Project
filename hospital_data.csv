@@ -1,0 +1,101 @@
+Patient_ID,Patient_Name,Age,Gender,Blood_Group,Department,Doctor_Name,Admission_Date,Discharge_Date,Disease,Treatment_Cost,Stay_Days,Doctor_Fee,Room_Charge,Medicine_Cost,Total_Bill,Patient_Rating,Patient_Status
+P1001,Patient_1,46,Male,O-,Neurology,Dr Rao,2026-01-01,2026-01-08,Stroke,30002,7,3300,14000,3696,50998,5.0,Discharged
+P1002,Patient_2,53,Female,B+,General Medicine,Dr Patel,2026-01-02,2026-01-12,Fever,5217,10,2100,12000,912,20229,3.4,Admitted
+P1003,Patient_3,30,Male,B+,General Medicine,Dr Patel,2026-01-03,2026-01-12,Fever,7282,9,1800,13500,1263,23845,3.7,Recovered
+P1004,Patient_4,49,Male,AB+,Cardiology,Dr Sharma,2026-01-04,2026-01-10,Heart Disease,28446,6,3300,9000,4426,45172,4.4,Recovered
+P1005,Patient_5,24,Male,B+,Gynecology,Dr Shah,2026-01-05,2026-01-07,PCOS,14986,2,2500,3600,3138,24224,4.0,Admitted
+P1006,Patient_6,68,Female,B+,Gynecology,Dr Shah,2026-01-06,2026-01-14,PCOS,17835,8,2500,9600,2370,32305,4.4,Discharged
+P1007,Patient_7,39,Male,B-,Cardiology,Dr Sharma,2026-01-07,2026-01-13,Heart Disease,28480,6,3300,7200,4358,43338,4.3,Recovered
+P1008,Patient_8,45,Male,AB+,Orthopedics,Dr Mehta,2026-01-08,2026-01-15,Fracture,26766,7,2200,14000,4073,47039,3.8,Admitted
+P1009,Patient_9,19,Male,B-,General Medicine,Dr Patel,2026-01-09,2026-01-17,Diabetes,8991,8,1800,14400,1162,26353,4.9,Recovered
+P1010,Patient_10,59,Female,O-,Gynecology,Dr Shah,2026-01-10,2026-01-14,Pregnancy Care,16692,4,2700,7200,2806,29398,4.5,Recovered
+P1011,Patient_11,62,Male,O-,General Medicine,Dr Patel,2026-01-11,2026-01-15,Diabetes,10088,4,2100,7200,1904,21292,4.0,Recovered
+P1012,Patient_12,74,Male,B-,Gynecology,Dr Shah,2026-01-12,2026-01-18,Pregnancy Care,17151,6,2700,10800,2936,33587,5.0,Recovered
+P1013,Patient_13,70,Male,O-,General Medicine,Dr Patel,2026-01-13,2026-01-20,Diabetes,8136,7,1800,8400,1104,19440,4.1,Recovered
+P1014,Patient_14,23,Male,AB+,Dermatology,Dr Joshi,2026-01-14,2026-01-24,Skin Infection,4667,10,2200,12000,736,19603,3.7,Discharged
+P1015,Patient_15,45,Female,A+,Cardiology,Dr Sharma,2026-01-15,2026-01-21,Hypertension,24562,6,3000,9000,2954,39516,4.4,Recovered
+P1016,Patient_16,45,Male,B-,General Medicine,Dr Patel,2026-01-16,2026-01-18,Fever,6656,2,1800,3000,1377,12833,4.5,Recovered
+P1017,Patient_17,61,Female,A-,Cardiology,Dr Sharma,2026-01-17,2026-01-22,Hypertension,31360,5,3000,9000,4028,47388,4.5,Recovered
+P1018,Patient_18,61,Female,A-,Dermatology,Dr Joshi,2026-01-18,2026-01-24,Allergy,8661,6,2200,10800,1557,23218,4.6,Recovered
+P1019,Patient_19,37,Female,B+,Dermatology,Dr Joshi,2026-01-19,2026-01-25,Skin Infection,8805,6,2200,10800,1925,23730,4.5,Admitted
+P1020,Patient_20,47,Male,O-,General Medicine,Dr Patel,2026-01-20,2026-01-28,Fever,11041,8,2100,12000,1917,27058,4.5,Recovered
+P1021,Patient_21,28,Female,A-,Gynecology,Dr Shah,2026-01-21,2026-01-26,PCOS,14229,5,2700,10000,3022,29951,4.0,Recovered
+P1022,Patient_22,75,Male,B+,Neurology,Dr Rao,2026-01-22,2026-01-24,Stroke,36848,2,3000,4000,5292,49140,4.0,Discharged
+P1023,Patient_23,72,Female,A+,Orthopedics,Dr Mehta,2026-01-23,2026-01-29,Arthritis,26830,6,2500,9000,5259,43589,4.6,Recovered
+P1024,Patient_24,45,Female,AB+,Orthopedics,Dr Mehta,2026-01-24,2026-02-01,Fracture,24834,8,2500,12000,4299,43633,4.4,Recovered
+P1025,Patient_25,42,Female,AB+,General Medicine,Dr Patel,2026-01-25,2026-02-01,Diabetes,13424,7,2300,10500,2578,28802,4.7,Recovered
+P1026,Patient_26,56,Female,AB+,Cardiology,Dr Sharma,2026-01-26,2026-02-01,Hypertension,27830,6,3000,9000,3513,43343,3.5,Recovered
+P1027,Patient_27,50,Female,A-,Dermatology,Dr Joshi,2026-01-27,2026-02-01,Allergy,11510,5,2700,7500,1551,23261,4.1,Recovered
+P1028,Patient_28,18,Female,A+,Dermatology,Dr Joshi,2026-01-28,2026-01-31,Allergy,10301,3,2200,4500,1373,18374,5.0,Recovered
+P1029,Patient_29,74,Female,A-,Gynecology,Dr Shah,2026-01-29,2026-02-03,Pregnancy Care,14346,5,2500,9000,2707,28553,4.5,Discharged
+P1030,Patient_30,44,Female,O-,General Medicine,Dr Patel,2026-01-30,2026-02-03,Infection,11231,4,2100,7200,2296,22827,4.4,Recovered
+P1031,Patient_31,74,Male,A-,General Medicine,Dr Patel,2026-01-31,2026-02-02,Infection,11741,2,2100,3600,2289,19730,4.6,Recovered
+P1032,Patient_32,69,Male,A+,Neurology,Dr Rao,2026-02-01,2026-02-10,Migraine,28453,9,3300,16200,3501,51454,5.0,Discharged
+P1033,Patient_33,30,Female,A+,Dermatology,Dr Joshi,2026-02-02,2026-02-08,Allergy,6039,6,2700,9000,1248,18987,5.0,Recovered
+P1034,Patient_34,58,Female,O-,Dermatology,Dr Joshi,2026-02-03,2026-02-08,Allergy,10556,5,2200,10000,1641,24397,3.6,Discharged
+P1035,Patient_35,20,Female,A+,Neurology,Dr Rao,2026-02-04,2026-02-13,Migraine,29042,9,3000,10800,4638,47480,3.8,Discharged
+P1036,Patient_36,56,Male,A+,Gynecology,Dr Shah,2026-02-05,2026-02-13,Pregnancy Care,14793,8,2700,12000,1930,31423,3.6,Recovered
+P1037,Patient_37,23,Female,AB+,Cardiology,Dr Sharma,2026-02-06,2026-02-09,Heart Disease,24691,3,3000,3600,4784,36075,4.0,Discharged
+P1038,Patient_38,25,Male,O-,General Medicine,Dr Patel,2026-02-07,2026-02-09,Diabetes,10813,2,2100,4000,1495,18408,4.3,Recovered
+P1039,Patient_39,44,Male,O+,Dermatology,Dr Joshi,2026-02-08,2026-02-13,Skin Infection,10438,5,2200,9000,1841,23479,4.4,Recovered
+P1040,Patient_40,26,Male,O+,Gynecology,Dr Shah,2026-02-09,2026-02-18,Pregnancy Care,12181,9,2500,18000,2486,35167,3.6,Recovered
+P1041,Patient_41,54,Male,A+,Cardiology,Dr Sharma,2026-02-10,2026-02-13,Hypertension,32909,3,3500,4500,4243,45152,3.5,Recovered
+P1042,Patient_42,50,Male,O+,Cardiology,Dr Sharma,2026-02-11,2026-02-15,Heart Disease,25040,4,3000,7200,4345,39585,4.0,Discharged
+P1043,Patient_43,68,Female,O+,Gynecology,Dr Shah,2026-02-12,2026-02-14,PCOS,15672,2,2700,3000,2246,23618,4.7,Recovered
+P1044,Patient_44,59,Female,A+,Cardiology,Dr Sharma,2026-02-13,2026-02-15,Heart Disease,29041,2,3000,3600,4481,40122,4.8,Recovered
+P1045,Patient_45,61,Female,O+,General Medicine,Dr Patel,2026-02-14,2026-02-18,Diabetes,5865,4,2100,4800,982,13747,5.0,Recovered
+P1046,Patient_46,41,Female,A-,Orthopedics,Dr Mehta,2026-02-15,2026-02-21,Arthritis,28191,6,2700,7200,4384,42475,4.3,Discharged
+P1047,Patient_47,32,Female,B+,Gynecology,Dr Shah,2026-02-16,2026-02-20,PCOS,18202,4,2200,4800,3365,28567,4.7,Recovered
+P1048,Patient_48,71,Male,O-,Gynecology,Dr Shah,2026-02-17,2026-02-19,PCOS,16994,2,2500,4000,2854,26348,4.8,Admitted
+P1049,Patient_49,49,Female,B+,General Medicine,Dr Patel,2026-02-18,2026-02-20,Fever,8812,2,2300,3000,1572,15684,4.1,Recovered
+P1050,Patient_50,49,Female,A+,Gynecology,Dr Shah,2026-02-19,2026-02-28,PCOS,10824,9,2700,18000,2096,33620,4.5,Discharged
+P1051,Patient_51,41,Male,AB+,General Medicine,Dr Patel,2026-02-20,2026-02-23,Diabetes,13847,3,1800,3600,2434,21681,4.6,Admitted
+P1052,Patient_52,58,Female,O-,General Medicine,Dr Patel,2026-02-21,2026-02-25,Diabetes,7641,4,1800,6000,1365,16806,3.9,Discharged
+P1053,Patient_53,69,Male,A+,Neurology,Dr Rao,2026-02-22,2026-02-25,Stroke,34919,3,3000,3600,6161,47680,5.0,Discharged
+P1054,Patient_54,66,Female,AB+,Gynecology,Dr Shah,2026-02-23,2026-02-27,PCOS,12986,4,2500,8000,2050,25536,4.3,Recovered
+P1055,Patient_55,66,Male,B+,Dermatology,Dr Joshi,2026-02-24,2026-03-04,Skin Infection,5310,8,2200,16000,816,24326,4.3,Recovered
+P1056,Patient_56,75,Female,A+,Gynecology,Dr Shah,2026-02-25,2026-02-27,PCOS,16088,2,2700,4000,3378,26166,3.9,Recovered
+P1057,Patient_57,69,Female,O-,Orthopedics,Dr Mehta,2026-02-26,2026-03-07,Fracture,22423,9,2700,10800,4053,39976,3.9,Recovered
+P1058,Patient_58,29,Male,O-,Cardiology,Dr Sharma,2026-02-27,2026-03-02,Heart Disease,28801,3,3000,4500,4160,40461,3.3,Recovered
+P1059,Patient_59,56,Male,B-,General Medicine,Dr Patel,2026-02-28,2026-03-04,Fever,8686,4,1800,6000,1475,17961,4.3,Discharged
+P1060,Patient_60,19,Male,A-,General Medicine,Dr Patel,2026-03-01,2026-03-11,Fever,13405,10,2300,12000,2051,29756,5.0,Recovered
+P1061,Patient_61,20,Male,O+,General Medicine,Dr Patel,2026-03-02,2026-03-10,Infection,10477,8,2100,12000,2235,26812,3.8,Recovered
+P1062,Patient_62,66,Male,AB+,Dermatology,Dr Joshi,2026-03-03,2026-03-08,Allergy,7768,5,2200,6000,938,16906,5.0,Admitted
+P1063,Patient_63,54,Male,B-,General Medicine,Dr Patel,2026-03-04,2026-03-10,Diabetes,9248,6,1800,9000,1318,21366,4.9,Recovered
+P1064,Patient_64,66,Male,O+,Dermatology,Dr Joshi,2026-03-05,2026-03-08,Skin Infection,8349,3,2700,5400,1307,17756,4.1,Discharged
+P1065,Patient_65,73,Male,O+,Gynecology,Dr Shah,2026-03-06,2026-03-15,PCOS,18935,9,2200,16200,3196,40531,4.3,Discharged
+P1066,Patient_66,34,Female,A+,Neurology,Dr Rao,2026-03-07,2026-03-12,Migraine,31209,5,3300,10000,6400,50909,4.2,Admitted
+P1067,Patient_67,66,Female,O+,Orthopedics,Dr Mehta,2026-03-08,2026-03-18,Arthritis,28773,10,2700,18000,3706,53179,5.0,Discharged
+P1068,Patient_68,19,Male,A-,Orthopedics,Dr Mehta,2026-03-09,2026-03-15,Fracture,26119,6,2200,10800,5239,44358,4.5,Discharged
+P1069,Patient_69,19,Female,O-,Orthopedics,Dr Mehta,2026-03-10,2026-03-20,Fracture,28147,10,2700,18000,3534,52381,4.8,Admitted
+P1070,Patient_70,45,Female,B-,General Medicine,Dr Patel,2026-03-11,2026-03-16,Infection,13586,5,1800,6000,2775,24161,4.5,Admitted
+P1071,Patient_71,71,Female,O+,Neurology,Dr Rao,2026-03-12,2026-03-18,Migraine,30572,6,3000,10800,3826,48198,4.2,Recovered
+P1072,Patient_72,40,Female,A+,General Medicine,Dr Patel,2026-03-13,2026-03-23,Fever,11030,10,1800,18000,1344,32174,4.4,Recovered
+P1073,Patient_73,54,Male,A-,Cardiology,Dr Sharma,2026-03-14,2026-03-23,Hypertension,24004,9,3300,18000,4553,49857,4.1,Recovered
+P1074,Patient_74,49,Female,B+,Gynecology,Dr Shah,2026-03-15,2026-03-19,PCOS,10714,4,2500,7200,2354,22768,3.6,Recovered
+P1075,Patient_75,50,Male,O-,General Medicine,Dr Patel,2026-03-16,2026-03-18,Diabetes,6031,2,2300,3600,1264,13195,4.7,Discharged
+P1076,Patient_76,18,Female,O-,Dermatology,Dr Joshi,2026-03-17,2026-03-21,Allergy,11076,4,2200,6000,1967,21243,3.6,Discharged
+P1077,Patient_77,36,Female,B-,Dermatology,Dr Joshi,2026-03-18,2026-03-23,Skin Infection,4323,5,2200,10000,915,17438,4.2,Discharged
+P1078,Patient_78,19,Female,O-,Dermatology,Dr Joshi,2026-03-19,2026-03-22,Skin Infection,4428,3,2500,6000,534,13462,4.1,Recovered
+P1079,Patient_79,70,Male,O+,General Medicine,Dr Patel,2026-03-20,2026-03-22,Infection,9529,2,1800,4000,2073,17402,4.6,Discharged
+P1080,Patient_80,61,Female,A+,Cardiology,Dr Sharma,2026-03-21,2026-03-29,Heart Disease,23633,8,3300,16000,3996,46929,5.0,Discharged
+P1081,Patient_81,43,Male,O-,Dermatology,Dr Joshi,2026-03-22,2026-03-31,Allergy,5605,9,2200,18000,1078,26883,4.8,Discharged
+P1082,Patient_82,49,Female,O-,Orthopedics,Dr Mehta,2026-03-23,2026-03-31,Arthritis,23127,8,2700,16000,4674,46501,4.6,Admitted
+P1083,Patient_83,23,Male,B+,Dermatology,Dr Joshi,2026-03-24,2026-03-30,Skin Infection,9816,6,2200,7200,1883,21099,4.0,Discharged
+P1084,Patient_84,49,Female,B+,Dermatology,Dr Joshi,2026-03-25,2026-03-27,Allergy,5352,2,2200,3600,929,12081,4.2,Recovered
+P1085,Patient_85,72,Male,AB+,Dermatology,Dr Joshi,2026-03-26,2026-04-03,Skin Infection,8410,8,2500,16000,1410,28320,4.2,Discharged
+P1086,Patient_86,21,Male,A-,General Medicine,Dr Patel,2026-03-27,2026-04-04,Diabetes,8675,8,1800,14400,1768,26643,4.1,Recovered
+P1087,Patient_87,72,Female,O+,General Medicine,Dr Patel,2026-03-28,2026-04-07,Fever,9848,10,1800,18000,1384,31032,4.1,Recovered
+P1088,Patient_88,28,Male,O-,Dermatology,Dr Joshi,2026-03-29,2026-04-02,Allergy,12942,4,2500,4800,2806,23048,4.1,Discharged
+P1089,Patient_89,73,Female,O-,General Medicine,Dr Patel,2026-03-30,2026-04-09,Infection,10690,10,2300,20000,2043,35033,4.1,Recovered
+P1090,Patient_90,34,Female,A+,General Medicine,Dr Patel,2026-03-31,2026-04-02,Infection,5756,2,2300,3000,806,11862,4.7,Discharged
+P1091,Patient_91,55,Female,AB+,Orthopedics,Dr Mehta,2026-04-01,2026-04-03,Fracture,22876,2,2500,2400,4429,32205,3.8,Recovered
+P1092,Patient_92,41,Female,A-,Dermatology,Dr Joshi,2026-04-02,2026-04-07,Allergy,9145,5,2500,7500,1582,20727,4.0,Discharged
+P1093,Patient_93,22,Female,AB+,Gynecology,Dr Shah,2026-04-03,2026-04-13,Pregnancy Care,12986,10,2500,18000,2477,35963,3.6,Recovered
+P1094,Patient_94,69,Female,B-,Orthopedics,Dr Mehta,2026-04-04,2026-04-11,Fracture,23084,7,2500,12600,4542,42726,4.9,Admitted
+P1095,Patient_95,51,Female,A-,Cardiology,Dr Sharma,2026-04-05,2026-04-09,Hypertension,31553,4,3300,4800,4062,43715,3.9,Discharged
+P1096,Patient_96,23,Female,O-,Gynecology,Dr Shah,2026-04-06,2026-04-08,PCOS,12830,2,2700,2400,2189,20119,4.6,Recovered
+P1097,Patient_97,39,Female,O-,Dermatology,Dr Joshi,2026-04-07,2026-04-12,Skin Infection,6203,5,2700,7500,1322,17725,4.5,Recovered
+P1098,Patient_98,28,Female,A-,Cardiology,Dr Sharma,2026-04-08,2026-04-18,Heart Disease,32162,10,3300,20000,4891,60353,4.9,Admitted
+P1099,Patient_99,65,Female,O-,Orthopedics,Dr Mehta,2026-04-09,2026-04-13,Arthritis,27620,4,2200,6000,4955,40775,4.2,Recovered
+P1100,Patient_100,33,Male,O+,Dermatology,Dr Joshi,2026-04-10,2026-04-20,Allergy,10614,10,2500,12000,1666,26780,3.9,Recovered
